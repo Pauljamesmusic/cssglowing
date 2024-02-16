@@ -18,6 +18,7 @@ body{
     user-select: none;
     letter-spacing: 3px;
     color: #fffdfd;
+
 }
 
 h1{
@@ -276,7 +277,7 @@ p:last-of-type{
 }
 
 .content{
-    --offset: 0;
+    --offset: 5vh;
     position: absolute;
     left: var(--offset);
     right: var(--offset);
